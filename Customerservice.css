@@ -1,0 +1,57 @@
+body{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+}
+header h1 {
+    position: relative;
+    font-size: 5em;
+    letter-spacing: 5px;
+    color: #000000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+.input-control{
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+.input-control input{
+    background: #2980b9;
+    width: 100%;
+    height: 90%;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding-left: 8px;
+    color: bisque;
+
+}
+.img{
+    position: relative;
+    left: 50%;
+    right: 200%;
+    top: -20%;
+}
+footer p{
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+textarea{
+    background:rgb(230, 187, 227) ;
+    position: relative;
+    
+}
+
+@media (max-width:700px) {
+    .mid-section{
+        display: flex;
+        flex-direction: column;
+        
+    }   
+}

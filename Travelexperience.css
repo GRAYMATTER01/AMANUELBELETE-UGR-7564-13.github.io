@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+}
+body h1{
+    text-align: center;
+}
+@media (max-width:700px) {
+    .mid-section{
+        display: flex;
+        flex-direction: column;
+        
+    }   
+}
